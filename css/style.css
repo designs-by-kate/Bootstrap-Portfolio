@@ -1,10 +1,19 @@
+:root {
+  --very-dark-color: #536456;
+  --dark-color: #0d0e0d;
+  --main-color: #323336;
+  --light-color: #f7fcfa;
+  --base-color: #e6eee4;
+  --contrast-color: #bd1e1e;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
 }
@@ -21,3 +30,89 @@ h6 {
 p {
   margin: 0;
 }
+
+.custom-container{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* NAVIGATION */
+
+/* Normal state styling */
+a{
+  font-size: x-large;
+  font-weight: 300;
+  color: black !important;
+  text-decoration: none /* Remove underline by default */
+}
+
+/* Hover state styling */
+a:hover {
+  color: red !important; /* Change link color on hover */
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.logo{
+  max-height: 100px;
+}
+
+header.masthead {
+  position: relative;
+  height: 650px;
+  width: 100%;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  color: rgb(255, 255, 255);
+  background: url(../images/bg-hero.png);
+  background-size: cover;
+}
+
+#about{
+  background-color: #e9ecef;
+}
+
+#pro1{
+  background: url(../images/chair.jpg);
+  background-size: cover;
+}
+
+#pro2{
+  background: url(../images/T-shirt.jpg);
+  background-size: cover;
+}
+
+#pro3{
+  background: url(../images/logodesign.png);
+  background-size: cover;
+}
+
+#pro4{
+  background: url(../images/menu.jpg);
+  background-size: cover;
+}
+
+#pro5{
+  background: url(../images/decorating.jpg);
+  background-size: cover;
+}
+
+.customBtn{
+  background-color: rgba(69, 155, 95, 0.7);
+  margin-bottom: 20px;
+  height: 75px;
+  width: 200px;
+  font-size: 28px;
+  border-bottom: 5px solid var(--contrast-color);
+}
+
+#experience, #work-details {
+  background-color: #0d0e0d;
+  color: #e6eee4;
+}
+
+#passion p, #passion a{
+  font-size: 12px;
+}
+

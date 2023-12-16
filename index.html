@@ -5,41 +5,423 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lernantino // Web Developer</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <title>Kate // Web Developer</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css" />
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+
 </head>
 
 <body>
   <!-- main logo / nav -->
-  <header>
-    <h1>Lernantino</h1>
-    <nav>
-    </nav>
-  </header>
-
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Cool subtitle here!</h2>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <img src="./images/logodesign.png" alt="My logo" class="logo img-fluid">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#header">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Me</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Work</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#project1">Chair</a>
+            <a class="dropdown-item" href="#project2">Logo</a>
+            <a class="dropdown-item" href="#project3">Menu</a>
+            <a class="dropdown-item" href="#project4">Room Decor</a>
+            <a class="dropdown-item" href="#project5">T-Shirt</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Experience</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#exp1">Programming</a>
+            <a class="dropdown-item" href="#exp2">Designing</a>
+            <a class="dropdown-item" href="#exp3">Dentistry</a>
+            <a class="dropdown-item" href="#exp4">Cooking</a>
+            <a class="dropdown-item" href="#exp5">Dietitian</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Passions</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#passio1">Cooking</a>
+            <a class="dropdown-item" href="#passion2">Drawing</a>
+            <a class="dropdown-item" href="#passion3">Painting</a>
+            <a class="dropdown-item" href="#passion4">Roller Skates</a>
+            <a class="dropdown-item" href="#passion5">Embroidery</a>
+            <a class="dropdown-item" href="#passion6">Crochet</a>
+            <a class="dropdown-item" href="#passion7">Sewing</a>
+            <a class="dropdown-item" href="#passion8">Decorating</a>
+            <a class="dropdown-item" href="#passion9">Rabbit</a>
+            <a class="dropdown-item" href="#">Rabbits</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      </form>
     </div>
-  </section>
+  </nav>
+  <!-- hero banner -->
+  <header class="masthead" id="header">
+    <section class="hero-banner">
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid text-center">
+          <h1 class="display-4 text-success mb-3">Embracing life as an ever-evolving journey</h1>
+          <p class="lead text-dark">I find strength in the lessons learned from every experience. </p>
+          <p class="lead text-dark">'What doesn't kill us makes us stronger' is not just a motto; it's a guiding principle that shapes my approach to challenges.</p>
+        </div>
+      </div>
+    </section>
+  </header>
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
-      <h2>About Me</h2>
+    <section class="page-section p-5" id="about">
+      <div class="container h-100">
+        <div class="row h-100">
+          <div class="col-lg-7 my-auto">
+            <div class="header-content mx-auto">
+              <h1 class="text-center text-success mb-5">Life is a constant lesson.</br> I've embraced each challenge as an opportunity to grow.</h1>
+              <p class="text-center" >I believe that through hard work and perseverance, we can achieve remarkable things.
+                My journey is fueled by a deep passion for learning, a commitment to continuous improvement, and the belief that success comes to those who work tirelessly toward their goals. I value the wisdom gained from every experience and cherish the lessons learned from others.
+                In this space, I invite you to explore my projects, share in my enthusiasm for technology, and witness the dedication I bring to every endeavor. Let's connect, collaborate, and embark on a journey of shared knowledge and endless possibilities.
+                Thank you for being a part of this adventure.</p>
+            </div>
+          </div>
+          <div class="col-lg-5 my-auto">
+            <div class="device-container">
+              <img src="./images/kate-bw.jpg" class="img-fluid rounded-circle" alt="My photo">
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
-      <h2>Work</h2>
+
+    <section class="page-section p-5" id="work">
+      <div class="container">
+        <h2 class="mb-5 text-center">Work</h2>
+          <div class="container h-100 mb-5 p-5" id="">
+            <div class="row h-100 m-3">
+              <div class="col-lg-12 my-auto mb-5 p-5" id="pro1">
+                <div class="device-container">
+                  <h5 class="card-title">Chair</h5>
+                  <a href="#project1" class="btn btn-primary customBtn">See More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row h-100 m-3">
+              <div class="col-lg-6 col-md-12 my-auto mb-5 p-5" id="pro2">
+                <div class="device-container">
+                  <h5 class="card-title">T-Shirt</h5>
+                  <a href="#project2" class="btn btn-primary customBtn">See More</a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 my-auto mb-5 p-5" id="pro3">
+                <div class="device-container">
+                  <h5 class="card-title">Logo</h5>
+                  <a href="#project3" class="btn btn-primary customBtn">See More</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="row h-100 m-3">
+              <div class="col-lg-6 col-md-12 my-auto mb-5 p-5" id="pro4">
+                <div class="device-container">
+                  <h5 class="card-title">Menu</h5>
+                  <a href="#project4" class="btn btn-primary customBtn">See More</a>
+                </div>
+              </div>
+              <div class="col-lg-6 col-md-12 my-auto mb-5 p-5" id="pro5">
+                <div class="device-container">
+                  <h5 class="card-title">Room Decor</h5>
+                  <a href="#project5" class="btn btn-primary customBtn">See More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="page-section p-5" id="experience">
+      <div class="container">
+        <h2 class="mb-5 text-center">Experience</h2>
+        <div class="row">
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp1">
+              <img class="img-fluid rounded-circle mb-3" src="./images/diet.jpg" alt="diet">
+              <h5 class="text-center">Dietitian</h5>
+              <p class="fw-light mb-0"></p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp2">
+              <img class="img-fluid rounded-circle mb-3" src="./images/bg.png" alt="maternity">
+              <h5 class="text-center">Maternity</h5>
+              <p class="fw-light mb-0"></p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp3">
+              <img class="img-fluid rounded-circle mb-3" src="./images/cooking.jpg" alt="cooking">
+              <h5 class="text-center">Cooking</h5>
+              <p class="fw-light mb-0"></p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp4">
+              <img class="img-fluid rounded-circle mb-3" src="./images/dentistry.jpg" alt="dentistry">
+              <h5 class="text-center">Dentistry</h5>
+              <p class="fw-light mb-0"></p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp5">
+              <img class="img-fluid rounded-circle mb-3" src="./images/designing.jpg" alt="designing">
+              <h5 class="text-center">Designing</h5>
+              <p class="fw-light mb-0"></p>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-4 col-sm-6">
+            <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp6">
+              <img class="img-fluid rounded-circle mb-3" src="./images/programming.png" alt="programming">
+              <h5 class="text-center">Programming</h5>
+              <p class="fw-light mb-0"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="page-section p-5" id="passion">
+      <div class="container">
+      <h2 class="mb-5 text-center">Passions & Values</h2>
+        <div class="row">
+          <div id="passion1" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/cooking.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Cooking</h5>
+              <p class="card-text">I have a great passion for cooking and food photography. I enjoy exploring new tastes when I travel and sharing photos of my culinary adventures. Trying new foods not only inspires me but also helps me develop in this area. If you'd like to discover more about my love for food, visit my <a href="https://www.instagram.com/hadzinskak/" target="_blank">Instagram</a></p>
+            </div>
+          </div>
+          <div id="passion2" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/drawing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Drawing</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+          <div id="passion3" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/painting.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Painting</h5>
+              <p class="card-text"> </p>
+            </div>
+          </div>
+          <div id="passion4" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/skates.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Roller Skates</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="passion5" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/embroidery.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Embroidery</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+          <div id="passion6" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/crochet.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Crochet</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+          <div id="passion7" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/sewing.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sewing</h5>
+              <p class="card-text"> </p>
+            </div>
+          </div>
+          <div id="passion8" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/decorating.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Decorating</h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div id="passion9" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="./images/rabbit.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Rabbit</h5>
+              <p class="card-text">I am the happy owner of two beautiful rabbits, each with their own unique personalities that bring immense joy into my life. Designing a comfortable and engaging environment for them has become a delightful challenge that sparks my creativity. . To meet my adorable companions, hop over to their <a href="https://www.instagram.com/charlie.8.lola/" target="_blank">Instagram</a> account!</p>
+            </div>
+          </div>
+          <div id="passion10" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+          <div id="passion11" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"> </p>
+            </div>
+          </div>
+          <div id="passion12" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+            <div class="card-body">
+              <h5 class="card-title"></h5>
+              <p class="card-text"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-section p-5" id="work-details">
+      <h2 class="mb-5 text-center">Work Details</h2>
+
+        <div class="container h-100 mb-5 p-5 border border-success" id="project1">
+          <div class="row h-100">
+            <div class="col-lg-5 my-auto">
+              <div class="device-container">
+                <img src="./images/chair.jpg" class="img-fluid rounded" alt="Chair Project Image">
+              </div>
+            </div>
+            <div class="col-lg-7 my-auto">
+              <div class="header-content mx-auto">
+                <h1 class="text-center text-success mb-5">Chair Project</h1>
+                <p class="text-center" >Description of the project...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      
+        <div class="container h-100 mb-5 p-5 border border-success" id="project2">
+          <div class="row h-100">
+            <div class="col-lg-7 my-auto">
+              <div class="header-content mx-auto">
+                <h1 class="text-center text-success mb-5">T-Shirt Project</h1>
+                <p class="text-center" >Description of the project...</p>
+              </div>
+            </div>
+            <div class="col-lg-5 my-auto">
+              <div class="device-container">
+                <img src="./images/T-shirt.jpg" class="img-fluid rounded" alt="T-Shirt Project Image">
+              </div>
+            </div>
+          </div>
+        </div>
+            
+        <div class="container h-100 mb-5 p-5 border border-success" id="project3">
+          <div class="row h-100">
+            <div class="col-lg-5 my-auto">
+              <div class="device-container">
+                <img src="./images/logodesign.png" class="img-fluid rounded" alt="Logo Project Image">
+              </div>
+            </div>
+            <div class="col-lg-7 my-auto">
+              <div class="header-content mx-auto">
+                <h1 class="text-center text-success mb-5">Logo Project</h1>
+                <p class="text-center" >Description of the project...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+     
+        <div class="container h-100 mb-5 p-5 border border-success" id="project4">
+          <div class="row h-100">
+            <div class="col-lg-7 my-auto">
+              <div class="header-content mx-auto">
+                <h1 class="text-center text-success mb-5">Menu Project</h1>
+                <p class="text-center" >Description of the project...</p>
+              </div>
+            </div>
+            <div class="col-lg-5 my-auto">
+              <div class="device-container">
+                <img src="./images/menu.jpg" class="img-fluid rounded" alt="Menu Project Image">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="container h-100 mb-5 p-5 border border-success" id="project5">
+          <div class="row h-100">
+            <div class="col-lg-5 my-auto">
+              <div class="device-container">
+                <img src="./images/decorating.jpg" class="img-fluid rounded" alt="Room Decor Project Image">
+              </div>
+            </div>
+            <div class="col-lg-7 my-auto">
+              <div class="header-content mx-auto">
+                <h1 class="text-center text-success mb-5">Room Decor Project</h1>
+                <p class="text-center" >Description of the project...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
     </section>
 
     <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Contact Me</h2>
+    <section class="contact-section bg-black" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="email m-5">
+            <h4 class="text-uppercase m-0">Email</h4>
+          </div>
+          <div class="small text-black-50 m-5">
+            <a href="#!">myemail@address.com</a></div>
+          </div>
+        </div>
+        <div class="social d-flex justify-content-center">
+          <a class="mx-2" href="#!"><i class="fab fa-instagram"></i></a>
+          <a class="mx-2" href="#!"><i class="fab fa-linkin"></i></a>
+          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+        </div>
+    </div>
     </section>
   </main>
+  <footer>
+    <div class="container">
+      <p>&copy; Kate's Design Portfolio. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

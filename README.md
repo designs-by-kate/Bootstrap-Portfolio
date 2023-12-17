@@ -3,7 +3,7 @@
 Welcome to my personal website! This website showcases various aspects of my life, including my adventures, projects, professional development, passions, and values. Feel free to explore the different sections and get to know more about me.
 
 
-![Alt text](image.png)
+![Alt text](./assets/readme%20photos/image.png)
 
 Table of Contents:
 

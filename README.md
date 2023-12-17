@@ -2,6 +2,7 @@
 
 Welcome to my personal website! This website showcases various aspects of my life, including my adventures, projects, professional development, passions, and values. Feel free to explore the different sections and get to know more about me.
 
+
 ![Alt text](image.png)
 
 Table of Contents:
@@ -24,6 +25,7 @@ The navigation bar is fixed at the top of the page and includes the following el
 -Sections with dropdown menus
 -Search button
 The navbar is positioned fixed to ensure easy navigation throughout the site.
+
 
 DESKTOP VIEW:
 
@@ -73,6 +75,7 @@ PHONE VIEW:
 
   Design Projects
   Highlighting some of my university design projects. Each image links to a detailed section with project information.
+
 
 DESKTOP VIEW:
 
@@ -138,6 +141,7 @@ This section include:
   Social Media Links (Instagram, GitHub, LinkedIn)
 *Currently under construction
 
+
 DESKTOP VIEW:
 
 ![Alt text](image-8.png)
@@ -153,3 +157,5 @@ PHONE VIEW:
 Note: This portfolio is a work in progress, and I will continue to update it with more projects and experiences.
 
 © 2023 Kate's Designs. All rights reserved.
+
+

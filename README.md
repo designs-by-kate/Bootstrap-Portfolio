@@ -28,47 +28,47 @@ The navigation bar is fixed at the top of the page and includes the following el
   
 DESKTOP VIEW:
 
-![Alt text](image-1.png)
+![desktop view of navigation](./assets/readme%20photos/image-1.png)
 
 TABLET VIEW:
 
-![Alt text](image-9.png)
+![table view of navigation](./assets/readme%20photos/image-9.png)
 
 PHONE VIEW:
 
-![Alt text](image-17.png)
+![phone view of navigation](./assets/readme%20photos/image-17.png)
 
 2. Header
 The header features a captivating background image from one of my adventurous trips, along with my life motto.
 
 DESKTOP VIEW:
 
-![Alt text](image-2.png)
+![desktop view of header](./assets/readme%20photos/image-2.png)
 
 TABLET VIEW:
 
-![Alt text](image-10.png)
+![tablet view of header](./assets/readme%20photos/image-10.png)
 
 PHONE VIEW:
 
-![Alt text](image-18.png)
+![phone view of header](./assets/readme%20photos/image-18.png)
 
 3. About Me
 This section provides a glimpse into my life, featuring a profile photo and a brief description of my life perspective.
 
 DESKTOP VIEW:
 
-![Alt text](image-3.png)
+![desktop view of about me](./assets/readme%20photos/image-3.png)
 
 TABLET VIEW:
 
-![Alt text](image-11.png)
+![tablet view of about me](./assets/readme%20photos/image-11.png)
 
 PHONE VIEW:
 
-![Alt text](image-19.png)
+![phone view of about me](./assets/readme%20photos/image-19.png)
 
-4. Work
+1. Work
 - IT Projects: 
   This section showcases projects developed during my bootcamp. Each image is a link to the respective project.
 
@@ -78,59 +78,59 @@ PHONE VIEW:
 
 DESKTOP VIEW:
 
-![Alt text](image-4.png)
+![desktop view of work](./assets/readme%20photos/image-4.png)
 
 TABLET VIEW:
 
-![Alt text](image-12.png)
+![tablet view of work](./assets/readme%20photos/image-12.png)
 
 PHONE VIEW:
 
-![Alt text](image-20.png)
+![phone view of work](./assets/readme%20photos/image-20.png)
 
 5. Experience
 An overview of my professional development, presented chronologically with titles. Descriptions are currently in progress.
 
 DESKTOP VIEW:
 
-![Alt text](image-5.png)
+![desktop view of experience](./assets/readme%20photos/image-5.png)
 
 TABLET VIEW:
 
-![Alt text](image-13.png)
+![tablet view of experience](./assets/readme%20photos/image-13.png)
 
 PHONE VIEW:
 
-![Alt text](image-21.png)
+![phone view of experience](./assets/readme%20photos/image-21.png)
 
 6. Passion and Values
 Explore my diverse interests, such as painting, drawing, cooking, and more. Some sections include links to my Instagram account for a deeper look into my passions.
 
 DESKTOP VIEW:
 
-![Alt text](image-6.png)
+![desktop view of passion](./assets/readme%20photos/image-6.png)
 
 TABLET VIEW:
 
-![Alt text](image-14.png)
+![tablet view of passion](./assets/readme%20photos/image-14.png)
 
 PHONE VIEW:
 
-![Alt text](image-22.png)
+![phone view of passion](./assets/readme%20photos/image-22.png)
 
-7. Work Details
+1. Work Details
 
 DESKTOP VIEW:
 
-   ![Alt text](image-7.png)
+![desktop view of work details](./assets/readme%20photos/image-7.png)
 
 TABLET VIEW:
 
-![Alt text](image-15.png)
+![tablet view of work details](./assets/readme%20photos/image-15.png)
 
 PHONE VIEW:
 
-![Alt text](image-23.png)
+![phone view of work details](./assets/readme%20photos/image-23.png)
 
 8. Contact
 This section include:
@@ -143,15 +143,15 @@ This section include:
 
 DESKTOP VIEW:
 
-![Alt text](image-8.png)
+![desktop view of work contact](./assets/readme%20photos/image-8.png)
 
 TABLET VIEW:
 
-![Alt text](image-16.png)
+![tablet view of work contact](./assets/readme%20photos/image-16.png)
 
 PHONE VIEW:
 
-![Alt text](image-24.png)
+![phone view of work contact](./assets/readme%20photos/image-24.png)
 
 Note: This portfolio is a work in progress, and I will continue to update it with more projects and experiences.
 

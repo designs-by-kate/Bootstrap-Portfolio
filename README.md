@@ -22,9 +22,9 @@ Table of Contents:
 
 The navigation bar is fixed at the top of the page and includes the following elements:
 
--Logo
--Sections with dropdown menus
--Search button
+- Logo
+- Sections with dropdown menus
+- Search button
 The navbar is positioned fixed to ensure easy navigation throughout the site.
 
 

@@ -121,7 +121,7 @@ header.masthead {
   color: var(--dark-color)
 }
 
-#passion, #work{
+#passion, #work, #contact{
   background-color: var(--dark-color);
   color: var(--base-color);
 }
@@ -143,4 +143,9 @@ header.masthead {
 #project2, #project5{
   background-color: var(--light-color);
   color: rgb(2, 2, 2);
+}
+
+footer{
+  background-color: var(--light-color);
+  color: var(--dark-color)
 }

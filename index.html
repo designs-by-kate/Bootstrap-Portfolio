@@ -9,12 +9,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css" />
 
-  <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+  <!-- Custom fonts/icons for this template -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
 </head>
 
@@ -222,7 +218,11 @@
             <img src="./images/cooking.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-success">Cooking</h5>
-              <p class="card-text text-dark">I have a great passion for cooking and food photography. I enjoy exploring new tastes when I travel and sharing photos of my culinary adventures. Trying new foods not only inspires me but also helps me develop in this area. If you'd like to discover more about my love for food, visit my <a href="https://www.instagram.com/hadzinskak/" target="_blank">Instagram</a></p>
+              <p class="card-text text-dark">I have a great passion for cooking and food photography. 
+                I enjoy exploring new tastes when I travel and sharing photos of my culinary adventures.
+                 Trying new foods not only inspires me but also helps me develop in this area. 
+                 If you'd like to discover more about my love for food, 
+                 visit my <a href="https://www.instagram.com/hadzinskak/" target="_blank">Instagram</a></p>
             </div>
           </div>
           <div id="passion2" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
@@ -397,26 +397,43 @@
     </section>
 
     <!-- contact -->
-    <section class="contact-section bg-black" id="contact">
+    <section class="contact-section p-5" id="contact">
+      <h2 class="mb-5 text-center"> Contact </h2>
       <div class="container">
-        <div class="row">
-          <div class="email m-5">
-            <h4 class="text-uppercase m-0">Email</h4>
+        <div class="row d-flex justify-content-center">
+          <div class="card m-3 col-12" id="email">
+            <h4 class="text-uppercase m-0 text-center text-success pt-2"><i class="bi bi-envelope"></i> Email</h4>
+            <div class="small text-black-50 m-2 text-center">
+              <a href="#!">myemail@address.com</a>
+            </div>
           </div>
-          <div class="small text-black-50 m-5">
-            <a href="#!">myemail@address.com</a></div>
+
+          <div class="card m-3 col-12" id="address">
+            <h4 class="text-uppercase m-0 text-center text-success pt-2"><i class="bi bi-geo-alt"></i></i> address</h4>
+            <div class="small text-black-50 m-2 text-center">
+              <a href="#!">my address</a>
+            </div>
+          </div>
+
+          <div class="card m-3 col-12" id="phone">
+            <h4 class="text-uppercase m-0 text-center text-success pt-2"><i class="bi bi-telephone"></i> phone</h4>
+            <div class="small text-black-50 m-2 text-center">
+              <a href="#!"> +44 77 123 456 78</a>
+            </div>
           </div>
         </div>
-        <div class="social d-flex justify-content-center">
-          <a class="mx-2" href="#!"><i class="fab fa-instagram"></i></a>
-          <a class="mx-2" href="#!"><i class="fab fa-linkin"></i></a>
-          <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+
+        <div class="social d-flex justify-content-center mb-3 mt-5">
+          <a class="mx-2 h1 text-white" href="https://www.instagram.com/hadzinskak/"><i class="bi bi-instagram"></i></a>
+          <a class="mx-2 h1 text-white" href="https://github.com/designs-by-kate"><i class="bi bi-github"></i></a>
+          <a class="mx-2 h1 text-white" href="#!"><i class="bi bi-linkedin"></i></a>
         </div>
     </div>
     </section>
   </main>
+
   <footer>
-    <div class="container">
+    <div class="container text-center p-5">
       <p>&copy; Kate's Design Portfolio. All Rights Reserved.</p>
     </div>
   </footer>

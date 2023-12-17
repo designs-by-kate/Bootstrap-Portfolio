@@ -181,3 +181,10 @@ footer{
   background-color: var(--light-color);
   color: var(--dark-color)
 }
+
+@media only screen and (max-width: 480px) {
+  /* Adjust styles for phone screens */
+  .customHeading{
+    font-size: 24px;
+  }
+}

@@ -25,9 +25,7 @@ The navigation bar is fixed at the top of the page and includes the following el
 - Logo
 - Sections with dropdown menus
 - Search button
-The navbar is positioned fixed to ensure easy navigation throughout the site.
-
-
+  
 DESKTOP VIEW:
 
 ![Alt text](image-1.png)
@@ -71,10 +69,10 @@ PHONE VIEW:
 ![Alt text](image-19.png)
 
 4. Work
-  IT Projects
+- IT Projects: 
   This section showcases projects developed during my bootcamp. Each image is a link to the respective project.
 
-  Design Projects
+- Design Projects: 
   Highlighting some of my university design projects. Each image links to a detailed section with project information.
 
 
@@ -136,11 +134,11 @@ PHONE VIEW:
 
 8. Contact
 This section include:
-  Email
-  Address
-  Phone
-  Social Media Links (Instagram, GitHub, LinkedIn)
-*Currently under construction
+-  Email
+-  Address
+-  Phone
+-  Social Media Links (Instagram, GitHub, LinkedIn)
+- *Currently under construction
 
 
 DESKTOP VIEW:

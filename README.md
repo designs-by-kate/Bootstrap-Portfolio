@@ -7,15 +7,16 @@ Welcome to my personal website! This website showcases various aspects of my lif
 
 Table of Contents:
 
-Navigation
-Header
-About Me
-Work
-  IT Projects
-  Design Projects
-Experience
-Passion and Values
-Contact
+- Navigation
+- Header
+- About Me
+- Work
+--  IT Projects
+--  Design Projects
+- Experience
+- Passion and Values
+- Work Details
+- Contact
 
 1. Navigation
 

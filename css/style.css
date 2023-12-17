@@ -73,6 +73,37 @@ header.masthead {
 #about{
   background-color: var(--light-color);
 }
+.image-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  background-color: var(--light-color);
+  margin-bottom: 20px;
+  height: 75px;
+  font-size: 28px;
+  border-bottom: 5px solid var(--contrast-color);
+  text-align: center; /* Center the title text */
+  line-height: 75px; /* Vertical centering */
+}
+
+#projectBig{
+  width: 100%;
+  height: 400px; /* Set the desired height for your container */
+  overflow: hidden;
+}
+
+#projectSmall{
+  width: 100%;
+  height: 200px; /* Set the desired height for your container */
+  overflow: hidden;
+}
+
+.object-fit-cover {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
 
 #pro1{
   background: url(../images/chair.jpg);

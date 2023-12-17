@@ -16,19 +16,27 @@
 
 <body>
   <!-- main logo / nav -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top"> <!-- navbar-expand-lg: Expand the navigation links on large devices; fixed-top: Fix the navbar at the top of the viewport as the user scrolls -->
+    <!--Navbar Toggler Button-->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- Navbar Collapse Section -->
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <!-- Logo Image -->
       <img src="./images/logodesign.png" alt="My logo" class="logo img-fluid">
+      <!-- Navbar Links -->
       <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <!-- Home Link -->
         <li class="nav-item">
           <a class="nav-link" href="#header">HOME</a>
         </li>
+        <!-- About Me Link -->
         <li class="nav-item">
           <a class="nav-link" href="#about">About Me</a>
         </li>
+        <!-- My Work Dropdown -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">My Work</a>
           <div class="dropdown-menu">
@@ -39,9 +47,11 @@
             <a class="dropdown-item" href="#project5">T-Shirt</a>
           </div>
         </li>
+        <!-- Experience Dropdown -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Experience</a>
           <div class="dropdown-menu">
+            <!-- Dropdown Items for Experience -->
             <a class="dropdown-item" href="#exp1">Programming</a>
             <a class="dropdown-item" href="#exp2">Designing</a>
             <a class="dropdown-item" href="#exp3">Dentistry</a>
@@ -49,9 +59,11 @@
             <a class="dropdown-item" href="#exp5">Dietitian</a>
           </div>
         </li>
+         <!-- Passions Dropdown -->
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Passions</a>
           <div class="dropdown-menu">
+            <!-- Dropdown Items for Passions -->
             <a class="dropdown-item" href="#passio1">Cooking</a>
             <a class="dropdown-item" href="#passion2">Drawing</a>
             <a class="dropdown-item" href="#passion3">Painting</a>
@@ -64,23 +76,31 @@
             <a class="dropdown-item" href="#">Rabbits</a>
           </div>
         </li>
+        <!-- Contact Link -->
         <li class="nav-item">
           <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
+      <!-- Search Form -->
       <form class="form-inline my-2 my-lg-0">
         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
   </nav>
-  <!-- hero banner -->
+  <!-- Hero Banner Section -->
   <header class="masthead" id="header">
+    <!-- Section for Hero Banner -->
     <section class="hero-banner">
-      <div class="jumbotron jumbotron-fluid">
+      <!-- Jumbotron Container -->
+      <div class="jumbotron jumbotron-fluid"> <!-- fluid: It ensures that the content spans the full width of its parent container. The content inside this container will adjust its width based on the screen size. -->
+        <!-- Fluid Container for Text Content -->
         <div class="container-fluid text-center">
-          <h1 class="display-4 text-success mb-3">Embracing life as an ever-evolving journey</h1>
-          <p class="lead text-dark">I find strength in the lessons learned from every experience. </p>
+          <!-- Hero Banner Title -->
+          <h1 class="display-4 text-success mb-3">Embracing life as an ever-evolving journey</h1> <!--display-4: sets the size of the heading to a large and prominent display level. -->
+          <!-- Hero Banner Lead Paragraph 1 -->
+          <p class="lead text-dark">I find strength in the lessons learned from every experience. </p> <!--lead: making it larger and slightly more prominent than regular paragraphs-->
+          <!-- Hero Banner Lead Paragraph 2 -->
           <p class="lead text-dark">'What doesn't kill us makes us stronger' is not just a motto; it's a guiding principle that shapes my approach to challenges.</p>
         </div>
       </div>
@@ -88,22 +108,31 @@
   </header>
 
   <main class="page-wrapper">
-    <!-- about me -->
+    <!-- About Section -->
     <section class="page-section p-5" id="about">
-      <div class="container h-100">
+      <!-- Container for About Section -->
+      <div class="container h-100"> <!--h-100: sets the height of an element to 100% of its containing element. -->
+        <!-- Row for Content Alignment -->
         <div class="row h-100">
-          <div class="col-lg-7 my-auto">
-            <div class="header-content mx-auto">
+          <!-- Column for Text Content -->
+          <div class="col-lg-7 my-auto"> <!--my-auto: ensures that the content inside this column will be vertically centered within the row.-->
+            <!-- Content Wrapper -->
+            <div class="header-content mx-auto"> <!--mx-auto: ensures that the content inside this div will be horizontally centered within its parent container.-->
+              <!-- About Section Title -->
               <h1 class="text-center text-success mb-5">Life is a constant lesson.</br> I've embraced each challenge as an opportunity to grow.</h1>
+              <!-- About Section Paragraph -->
               <p class="text-center" >I believe that through hard work and perseverance, we can achieve remarkable things.
                 My journey is fueled by a deep passion for learning, a commitment to continuous improvement, and the belief that success comes to those who work tirelessly toward their goals. I value the wisdom gained from every experience and cherish the lessons learned from others.
                 In this space, I invite you to explore my projects, share in my enthusiasm for technology, and witness the dedication I bring to every endeavor. Let's connect, collaborate, and embark on a journey of shared knowledge and endless possibilities.
                 Thank you for being a part of this adventure.</p>
             </div>
           </div>
+          <!-- Column for Image -->
           <div class="col-lg-5 my-auto">
+            <!-- Device Container for Image -->
             <div class="device-container">
-              <img src="./images/kate-bw.jpg" class="img-fluid rounded-circle" alt="My photo">
+              <!-- About Section Image -->
+              <img src="./images/kate-bw.jpg" class="img-fluid rounded-circle" alt="My photo"> <!--img-fluid: ensures that the image scales proportionally with the width of its parent container, making it responsive to different screen sizes.-->
             </div>
           </div>
         </div>
@@ -111,22 +140,30 @@
     </section>
 
     <!-- portfolio container -->
-
+    <!-- Work Section -->
     <section class="page-section p-5" id="work">
+      <!-- Container for Work Section -->
       <div class="container">
+        <!-- Work Section Title -->
         <h2 class="mb-5 text-center text-success">Work</h2>
-
+          <!-- Nested Container for Work Projects -->
           <div class="container m-0 p-0" id="">
-            <div class="row double-height-row m-3">
+            <!-- First Row with Double Height (Fix Needed)-->
+            <div class="row double-height-row m-3"> <!--double-height-row: custom class, created to this row have a double height compared to regular row -for some reason doesn't work, FIX NEEDED!!!-->
+              <!-- Column for the First Project -->
               <div class="col-lg-12 my-auto mb-5 pt-0 pb-2 pl-0" id="pro1">
+                <!-- Device Container for Project 1 -->
                 <div class="device-container">
+                  <!-- Project Title and Styling -->
                   <h3 class="card-title text-white text-center bg-danger mb-5">Chair</h3>
-                  <a href="#project1" class="btn btn-outline-light customBtn">See More</a>
+                  <!-- "See More" Button -->
+                  <a href="#project1" class="btn btn-outline-light customBtn">See More</a> <!--customBtn: custom class created to define its styling-->
                 </div>
               </div>
             </div>
-
+            <!-- Second Row -->
             <div class="row m-3">
+              <!-- Columns for Project 2 and Project 3 -->
               <div class="col-lg-6 col-md-12 my-auto mb-5 pt-0 pb-2 pl-0" id="pro2">
                 <div class="device-container">
                   <h3 class="card-title text-white text-center bg-danger mb-5">T-Shirt</h3>
@@ -140,8 +177,9 @@
                 </div>
               </div>
             </div>
-
+            <!-- Third Row -->
             <div class="row m-3">
+              <!-- Columns for Project 4 and Project 5 -->
               <div class="col-lg-6 col-md-12 my-auto mb-5 pt-0 pb-2 pl-0" id="pro4">
                 <div class="device-container">
                   <h3 class="card-title text-white text-center bg-danger mb-5">Menu</h3>
@@ -159,48 +197,70 @@
       </div>
     </section>
 
+    <!-- Experience Section -->
     <section class="page-section p-5" id="experience">
+      <!-- Container for Experience Section -->
       <div class="container">
+        <!-- Experience Section Title -->
         <h2 class="mb-5 text-center">Experience</h2>
+        <!-- Row of Experience Items -->
         <div class="row">
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <!-- Individual Experience Item-->
+          <div class="col-lg-2 col-md-4 col-sm-6"> <!--responsive classes-->
             <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp1">
+              <!-- Image for this experience -->
               <img class="img-fluid rounded-circle mb-3" src="./images/diet.jpg" alt="diet">
+              <!-- Title and Description -->
               <h5 class="text-center">Dietitian</h5>
               <p class="fw-light mb-0"></p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <!-- Individual Experience Item-->
+          <div class="col-lg-2 col-md-4 col-sm-6"><!--responsive classes-->
             <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp2">
+              <!-- Image for this experience -->
               <img class="img-fluid rounded-circle mb-3" src="./images/bg.png" alt="maternity">
+              <!-- Title and Description -->
               <h5 class="text-center">Maternity</h5>
               <p class="fw-light mb-0"></p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <!-- Individual Experience Item-->
+          <div class="col-lg-2 col-md-4 col-sm-6"><!--responsive classes-->
             <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp3">
+              <!-- Image for this experience -->
               <img class="img-fluid rounded-circle mb-3" src="./images/cooking.jpg" alt="cooking">
+              <!-- Title and Description -->
               <h5 class="text-center">Cooking</h5>
               <p class="fw-light mb-0"></p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <!-- Individual Experience Item-->
+          <div class="col-lg-2 col-md-4 col-sm-6"><!--responsive classes-->
             <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp4">
+              <!-- Image for this experience -->
               <img class="img-fluid rounded-circle mb-3" src="./images/dentistry.jpg" alt="dentistry">
+              <!-- Title and Description -->
               <h5 class="text-center">Dentistry</h5>
               <p class="fw-light mb-0"></p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <!-- Individual Experience Item-->
+          <div class="col-lg-2 col-md-4 col-sm-6"><!--responsive classes-->
             <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp5">
+              <!-- Image for this experience -->
               <img class="img-fluid rounded-circle mb-3" src="./images/designing.jpg" alt="designing">
+              <!-- Title and Description -->
               <h5 class="text-center">Designing</h5>
               <p class="fw-light mb-0"></p>
             </div>
           </div>
-          <div class="col-lg-2 col-md-4 col-sm-6">
+          <!-- Individual Experience Item-->
+          <div class="col-lg-2 col-md-4 col-sm-6"><!--responsive classes-->
             <div class="experience-item mx-auto mb-5 mb-lg-0" id="exp6">
+              <!-- Image for this experience -->
               <img class="img-fluid rounded-circle mb-3" src="./images/programming.png" alt="programming">
+              <!-- Title and Description -->
               <h5 class="text-center">Programming</h5>
               <p class="fw-light mb-0"></p>
             </div>
@@ -209,98 +269,141 @@
       </div>
     </section>
 
-
+    <!-- Passion & Values section -->
     <section class="page-section p-5" id="passion">
+      <!-- Container for Passion Section -->
       <div class="container">
+      <!-- Passion Section Title -->
       <h2 class="mb-5 text-center text-success">Passions & Values</h2>
+        <!-- First row of passion cards -->
         <div class="row">
-          <div id="passion1" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/cooking.jpg" class="card-img-top" alt="...">
+          <!--passion 1-->
+          <div id="passion1" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/cooking.jpg" class="card-img-top" alt="cooking Image">
+             <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Cooking</h5>
-              <p class="card-text text-dark">I have a great passion for cooking and food photography. 
+              <p class="card-text text-dark">I have a great passion for cooking and food photography.
                 I enjoy exploring new tastes when I travel and sharing photos of my culinary adventures.
-                 Trying new foods not only inspires me but also helps me develop in this area. 
-                 If you'd like to discover more about my love for food, 
-                 visit my <a href="https://www.instagram.com/hadzinskak/" target="_blank">Instagram</a></p>
+                 Trying new foods not only inspires me but also helps me develop in this area.
+                 If you'd like to discover more about my love for food,
+                 visit my <a href="https://www.instagram.com/hadzinskak/" target="_blank">Instagram</a></p><!-- Link to Instagram for more about it -->
             </div>
           </div>
-          <div id="passion2" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/drawing.jpg" class="card-img-top" alt="...">
+          <!--passion 2-->
+          <div id="passion2" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/drawing.jpg" class="card-img-top" alt="drawing Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Drawing</h5>
               <p class="card-text text-dark"></p>
             </div>
           </div>
-          <div id="passion3" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/painting.jpg" class="card-img-top" alt="...">
+          <!--passion 3-->
+          <div id="passion3" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/painting.jpg" class="card-img-top" alt="painting Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Painting</h5>
               <p class="card-text text-dark"> </p>
             </div>
           </div>
-          <div id="passion4" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/skates.jpg" class="card-img-top" alt="...">
+          <!--passion 4-->
+          <div id="passion4" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/skates.jpg" class="card-img-top" alt="skates Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Roller Skates</h5>
               <p class="card-text text-dark"></p>
             </div>
           </div>
         </div>
+        <!-- Second row of passion cards -->
         <div class="row">
-          <div id="passion5" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/embroidery.jpg" class="card-img-top" alt="...">
+          <!--passion 5-->
+          <div id="passion5" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/embroidery.jpg" class="card-img-top" alt="embroidery Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Embroidery</h5>
               <p class="card-text text-dark"></p>
             </div>
           </div>
-          <div id="passion6" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/crochet.jpg" class="card-img-top" alt="...">
+          <!--passion 6-->
+          <div id="passion6" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/crochet.jpg" class="card-img-top" alt="crochet Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Crochet</h5>
               <p class="card-text text-dark"></p>
             </div>
           </div>
-          <div id="passion7" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/sewing.jpg" class="card-img-top" alt="...">
+          <!--passion 7-->
+          <div id="passion7" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/sewing.jpg" class="card-img-top" alt="sewing Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Sewing</h5>
               <p class="card-text text-dark"> </p>
             </div>
           </div>
-          <div id="passion8" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/decorating.jpg" class="card-img-top" alt="...">
+          <!--passion 8-->
+          <div id="passion8" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/decorating.jpg" class="card-img-top" alt="decorating Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Decorating</h5>
               <p class="card-text text-dark"></p>
             </div>
           </div>
         </div>
+        <!-- Third row of passion cards -->
         <div class="row">
-          <div id="passion9" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
-            <img src="./images/rabbit.jpg" class="card-img-top" alt="...">
+          <!--passion 9-->
+          <div id="passion9" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
+            <img src="./images/rabbit.jpg" class="card-img-top" alt="rabbit Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success">Rabbit</h5>
-              <p class="card-text text-dark">I am the happy owner of two beautiful rabbits, each with their own unique personalities that bring immense joy into my life. Designing a comfortable and engaging environment for them has become a delightful challenge that sparks my creativity. . To meet my adorable companions, hop over to their <a href="https://www.instagram.com/charlie.8.lola/" target="_blank">Instagram</a> account!</p>
+              <p class="card-text text-dark">I am the happy owner of two beautiful rabbits, each with their own unique personalities that bring immense joy into my life. 
+                Designing a comfortable and engaging environment for them has become a delightful challenge that sparks my creativity. 
+                To meet my adorable companions, hop over to their <a href="https://www.instagram.com/charlie.8.lola/" target="_blank">Instagram</a> account!</p><!-- Link to Instagram for more about it -->
             </div>
           </div>
-          <div id="passion10" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+          <!--passion 10-->
+          <div id="passion10" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
             <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success"></h5>
               <p class="card-text text-dark"></p>
             </div>
           </div>
-          <div id="passion11" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+          <!--passion 11-->
+          <div id="passion11" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
             <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success"></h5>
               <p class="card-text text-dark"> </p>
             </div>
           </div>
-          <div id="passion12" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success">
+          <!--passion 12-->
+          <div id="passion12" class="card col-lg-3 col-md-6 col-sm-12 mb-5 p-5 border border-success"> <!--responsive classes-->
+            <!-- Card image -->
             <img src="https://via.placeholder.com/150" class="card-img-top" alt="Placeholder Image">
+            <!-- Card content -->
             <div class="card-body">
               <h5 class="card-title text-success"></h5>
               <p class="card-text text-dark"></p>
@@ -310,16 +413,20 @@
       </div>
     </section>
 
+    <!-- Work-details section -->
     <section class="page-section p-5" id="work-details">
+      <!-- Work details Section Title -->
       <h2 class="mb-5 text-center">Work Details</h2>
-
+        <!-- First Project Details -->
         <div class="container h-100 mb-5 p-5 border border-success" id="project1">
           <div class="row h-100">
+            <!-- Left Column: Displaying Project Image -->
             <div class="col-lg-5 my-auto">
               <div class="device-container">
                 <img src="./images/chair.jpg" class="img-fluid rounded" alt="Chair Project Image">
               </div>
             </div>
+            <!-- Right Column: Displaying Chair Project Title and Description -->
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
                 <h1 class="text-center text-success mb-5">Chair Project</h1>
@@ -328,15 +435,17 @@
             </div>
           </div>
         </div>
-      
+        <!-- FSecond Project Details -->
         <div class="container h-100 mb-5 p-5 border border-success" id="project2">
           <div class="row h-100">
+            <!-- Left Column: Displaying Project Title and Description -->
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
                 <h1 class="text-center text-success mb-5">T-Shirt Project</h1>
                 <p class="text-center" >Description of the project...</p>
               </div>
             </div>
+            <!-- Right Column: Displaying Chair Project Image -->
             <div class="col-lg-5 my-auto">
               <div class="device-container">
                 <img src="./images/T-shirt.jpg" class="img-fluid rounded" alt="T-Shirt Project Image">
@@ -344,14 +453,16 @@
             </div>
           </div>
         </div>
-            
+        <!-- Third Project Details -->
         <div class="container h-100 mb-5 p-5 border border-success" id="project3">
-          <div class="row h-100">
+          <div class="row h-100"> <!--h-100: ensures that the row takes up the full height of its parent container, providing a layout where both the left and right columns extend to the full height of the row.-->
+            <!-- Left Column: Displaying Chair Project Image -->
             <div class="col-lg-5 my-auto">
               <div class="device-container">
                 <img src="./images/logodesign.png" class="img-fluid rounded" alt="Logo Project Image">
               </div>
             </div>
+            <!-- Right Column: Displaying Chair Project Title and Description -->
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
                 <h1 class="text-center text-success mb-5">Logo Project</h1>
@@ -360,15 +471,17 @@
             </div>
           </div>
         </div>
-     
+        <!-- Fourth Project Details -->
         <div class="container h-100 mb-5 p-5 border border-success" id="project4">
           <div class="row h-100">
+            <!-- Left Column: Displaying Chair Project Title and Description -->
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
                 <h1 class="text-center text-success mb-5">Menu Project</h1>
                 <p class="text-center" >Description of the project...</p>
               </div>
             </div>
+            <!-- Right Column: Displaying Chair Project Image -->
             <div class="col-lg-5 my-auto">
               <div class="device-container">
                 <img src="./images/menu.jpg" class="img-fluid rounded" alt="Menu Project Image">
@@ -376,14 +489,16 @@
             </div>
           </div>
         </div>
-        
+        <!-- Fifth Project Details -->
         <div class="container h-100 mb-5 p-5 border border-success" id="project5">
           <div class="row h-100">
+            <!-- Left Column: Displaying Chair Project Image -->
             <div class="col-lg-5 my-auto">
               <div class="device-container">
                 <img src="./images/decorating.jpg" class="img-fluid rounded" alt="Room Decor Project Image">
               </div>
             </div>
+            <!-- Right Column: Displaying Chair Project Title and Description -->
             <div class="col-lg-7 my-auto">
               <div class="header-content mx-auto">
                 <h1 class="text-center text-success mb-5">Room Decor Project</h1>
@@ -397,24 +512,27 @@
     </section>
 
     <!-- contact -->
+    <!-- Contact Section: Displays contact information and social links -->
     <section class="contact-section p-5" id="contact">
       <h2 class="mb-5 text-center"> Contact </h2>
       <div class="container">
+        <!-- Row for Contact Cards: Email, Address, Phone -->
         <div class="row d-flex justify-content-center">
+          <!-- Email Card -->
           <div class="card m-3 col-12" id="email">
             <h4 class="text-uppercase m-0 text-center text-success pt-2"><i class="bi bi-envelope"></i> Email</h4>
             <div class="small text-black-50 m-2 text-center">
               <a href="#!">myemail@address.com</a>
             </div>
           </div>
-
+          <!-- Address Card -->
           <div class="card m-3 col-12" id="address">
             <h4 class="text-uppercase m-0 text-center text-success pt-2"><i class="bi bi-geo-alt"></i></i> address</h4>
             <div class="small text-black-50 m-2 text-center">
               <a href="#!">my address</a>
             </div>
           </div>
-
+          <!-- Phone Card -->
           <div class="card m-3 col-12" id="phone">
             <h4 class="text-uppercase m-0 text-center text-success pt-2"><i class="bi bi-telephone"></i> phone</h4>
             <div class="small text-black-50 m-2 text-center">
@@ -422,18 +540,26 @@
             </div>
           </div>
         </div>
-
+        <!-- Social Links -->
         <div class="social d-flex justify-content-center mb-3 mt-5">
-          <a class="mx-2 h1 text-white" href="https://www.instagram.com/hadzinskak/"><i class="bi bi-instagram"></i></a>
+          <!-- Instagram Link -->
+          <a class="mx-2 h1 text-white" href="https://www.instagram.com/hadzinskak/"><i class="bi bi-instagram"></i></a><!-- mx-2: controls the margin on the X-axis (horizontal) of an element.-->
+          <!-- GitHub Link -->
           <a class="mx-2 h1 text-white" href="https://github.com/designs-by-kate"><i class="bi bi-github"></i></a>
-          <a class="mx-2 h1 text-white" href="#!"><i class="bi bi-linkedin"></i></a>
+          <!-- LinkedIn Link -->
+          <a class="mx-2 h1 text-white" href="#!"><i class="bi bi-linkedin"></i></a><!--Link is not available yet-->
         </div>
     </div>
     </section>
+
   </main>
 
+  
+  <!-- Footer Section -->
   <footer>
+    <!-- Container for Footer Content with Centered Text and Padding -->
     <div class="container text-center p-5">
+      <!-- Copyright Notice -->
       <p>&copy; Kate's Design Portfolio. All Rights Reserved.</p>
     </div>
   </footer>
